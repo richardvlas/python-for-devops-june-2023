@@ -79,3 +79,12 @@ Build out Python project scaffold:
 ## Microservices
 
 ## Containerized Continuous Delivery
+
+Run the created docker image locally:
+
+    ```bash
+    docker run -p 127.0.0.1:8080:8080 a452053221a1
+    ```
+
+    * -p  - publish a container's port(s) to the host
+    * image ID - id of the image to run
