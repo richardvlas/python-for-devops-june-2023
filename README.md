@@ -12,10 +12,10 @@ From Zero Repository for doing Python DevOps work
 
 Build out Python project scaffold:
 
-* Makefile
-* requirements.txt
-* test_library.py
-* python_library
+* [Makefile](https://github.com/richardvlas/python-for-devops-june-2023/blob/main/Makefile)
+* [requirements.txt](https://github.com/richardvlas/python-for-devops-june-2023/blob/main/requirements.txt)
+* [test_devopslib.py](https://github.com/richardvlas/python-for-devops-june-2023/blob/main/test_devopslib.py)
+* [devopslib.py](https://github.com/richardvlas/python-for-devops-june-2023/tree/main/devopslib)
 * Dockerfile
 * command-line tool
 * Microservice
@@ -58,6 +58,13 @@ Build out Python project scaffold:
 
     ```bash
     /home/<username>/.venv/bin/python
+    ```
+
+4. Call the make command all
+    The make command run all steps to build out the project scaffold and deploy it to AWS.
+
+    ```bash
+    make all
     ```
 
 
