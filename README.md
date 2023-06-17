@@ -1,4 +1,4 @@
-[![.github/workflows/main.yml](https://github.com/richardvlas/python-for-devops-june-2023/actions/workflows/main.yml/badge.svg)](https://github.com/richardvlas/python-for-devops-june-2023/actions/workflows/main.yml)
+[![Test Multiple Python Versions](https://github.com/richardvlas/python-for-devops-june-2023/actions/workflows/main.yml/badge.svg)](https://github.com/richardvlas/python-for-devops-june-2023/actions/workflows/main.yml)
 
 # Python for DevOps
 From Zero Repository for doing Python DevOps work
