@@ -1,6 +1,6 @@
 [![Test Multiple Python Versions](https://github.com/richardvlas/python-for-devops-june-2023/actions/workflows/main.yml/badge.svg)](https://github.com/richardvlas/python-for-devops-june-2023/actions/workflows/main.yml)
 
-[![AWS CodeBuild](https://codebuild.ap-southeast-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiYVpjYUIwc1hMR0NMR3ZtWXlhRmIyM0VzNXNqYy9UWmpENjlPRjh4dExTYW1jcFhYc0R3T0J0Yi83czdoR3Y5ZFo4WmJHcndXSy80RUEwOWV6U0tVdlRNPSIsIml2UGFyYW1ldGVyU3BlYyI6IndpWlJmOTVFTU93RE9kWmsiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
+![AWS CodeBuild](https://codebuild.ap-southeast-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiYVpjYUIwc1hMR0NMR3ZtWXlhRmIyM0VzNXNqYy9UWmpENjlPRjh4dExTYW1jcFhYc0R3T0J0Yi83czdoR3Y5ZFo4WmJHcndXSy80RUEwOWV6U0tVdlRNPSIsIml2UGFyYW1ldGVyU3BlYyI6IndpWlJmOTVFTU93RE9kWmsiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 
 # Python for DevOps
 From Zero Repository for doing Python DevOps work
@@ -90,3 +90,25 @@ Run the created docker image locally:
 
 * `-p`  - publish a container's port(s) to the host
 * `a452053221a1` - example image ID to run (get it from `docker images ls`)
+
+### Required AWS Resources
+
+**Amazon ECR**
+
+* Amazon Elastic Container Registry (ECR) is a fully managed container registry service for storing, managing, and deploying Docker container images.
+
+![image](https://github.com/richardvlas/python-for-devops-june-2023/assets/56484490/cec51252-c4a8-4821-bb41-dbcbbc1751cf)
+
+**App Runner**
+
+* AWS App Runner is a fully managed service that simplifies the deployment of containerized applications without the need to manage underlying infrastructure or containers.
+
+![image](https://github.com/richardvlas/python-for-devops-june-2023/assets/56484490/c923c7a7-b39c-4431-8315-d78f00a27baa)
+
+**CodeBuild**
+
+* AWS CodeBuild is a fully managed build service that compiles, tests, and packages your source code to produce artifacts such as Docker container images or deployment packages.
+
+![image](https://github.com/richardvlas/python-for-devops-june-2023/assets/56484490/befe45b5-762c-4a02-b026-a4cf817a0b33)
+
+
