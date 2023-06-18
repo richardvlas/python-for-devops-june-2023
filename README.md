@@ -1,5 +1,7 @@
 [![Test Multiple Python Versions](https://github.com/richardvlas/python-for-devops-june-2023/actions/workflows/main.yml/badge.svg)](https://github.com/richardvlas/python-for-devops-june-2023/actions/workflows/main.yml)
 
+[![AWS CodeBuild](https://codebuild.ap-southeast-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiYVpjYUIwc1hMR0NMR3ZtWXlhRmIyM0VzNXNqYy9UWmpENjlPRjh4dExTYW1jcFhYc0R3T0J0Yi83czdoR3Y5ZFo4WmJHcndXSy80RUEwOWV6U0tVdlRNPSIsIml2UGFyYW1ldGVyU3BlYyI6IndpWlJmOTVFTU93RE9kWmsiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
+
 # Python for DevOps
 From Zero Repository for doing Python DevOps work
 
