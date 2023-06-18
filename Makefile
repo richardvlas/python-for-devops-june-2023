@@ -11,8 +11,14 @@ test:
 format:
 	black *.py devopslib/*.py
 
-deploy:
-	echo "Deployment goes here"
+post-install:
+	python -m textblob.download_corpora
 
-all: install lint test format deploy
+deploy:
+	aws ecr get-login-password --region ap-southeast-1 | docker login --username AWS --password-stdin 297758011529.dkr.ecr.ap-southeast-1.amazonaws.com
+	docker build -t devops-june-2023 .
+	docker tag devops-june-2023:latest 297758011529.dkr.ecr.ap-southeast-1.amazonaws.com/devops-june-2023:latest
+	docker push 297758011529.dkr.ecr.ap-southeast-1.amazonaws.com/devops-june-2023:latest
+
+all: install post-install format lint test deploy
 	
