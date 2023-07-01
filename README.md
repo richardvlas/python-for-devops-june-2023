@@ -80,7 +80,11 @@ Build out Python project scaffold:
 
 ## Microservices
 
-## Containerized Continuous Delivery
+## Containerized Continues Delivery of Microservice App
+
+![image](https://github.com/richardvlas/python-for-devops-june-2023/assets/56484490/4d9ff52f-373f-4f8c-baa2-da71a6b1e4fe)
+
+
 
 Run the created docker image locally:
 
